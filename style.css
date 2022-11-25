@@ -198,6 +198,9 @@ input {
     padding: 5px;
     border-radius: 5px;
 }
+input:focus{
+    border: 3px solid #cc00ff;
+}
 #login-link{
     color: #d100d1;
     font-weight: 900;
