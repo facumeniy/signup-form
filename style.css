@@ -13,7 +13,7 @@ body{
 .left-pannel{
     height: 100%;
     min-width: 600px;
-    background-image: url(/images/background.jpg);
+    background-image: url(https://facumeniy.github.io/signup-form/images/background.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
