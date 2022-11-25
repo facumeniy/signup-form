@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SIGN UP FORM</title>
     <!--FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,17 +21,13 @@
         <div class="right-pannel-section">
             <div class="description-text">
                 <div class="text-container">
-                <h3 id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Aspernatur repudiandae fuga nihil temporibus dolor at itaque id eum! 
-                    Aliquam necessitatibus dicta magnam quasi maiores neque 
-                    sint est dignissimos beatae in.
-                </h3>
+                    <h3 id="text">THIS IS NOT A REAL WEBSITE. YOU KNOW YOU NEED SOMETHING LIKE THIS IN YOUR LIFE TO HELP YOU REALIZE YOUR DEEPEST DREAMS</h3>
                 </div>
             </div>
         </div>
         <div id="form-pannel" class="right-pannel-section">
             <div class="form-title-container">
-                <h3 id="form-title">Let's do this!</h3>
+                <h3 id="form-title">SIGN UP</h3>
             </div>
 
             <form id="form" action="">
@@ -42,7 +38,7 @@
                             <label for="first-name">FIRST NAME</label>
                         </div>
                         <div class="input-container">
-                            <input type="text" name="first-name" id="first-name">
+                            <input type="text" name="first-name" id="first-name" required>
                         </div>
                     </div>
                     <div class="full-input">
@@ -50,7 +46,7 @@
                             <label for="last-name">LAST NAME</label>
                         </div>
                         <div class="input-container">
-                            <input type="text" name="last-name" id="last-name">
+                            <input type="text" name="last-name" id="last-name" required>
                         </div>
                     </div>
                 </div>
@@ -60,7 +56,7 @@
                             <label for="email">EMAIL</label>
                         </div>
                         <div class="input-container">
-                            <input type="email" name="email" id="email">
+                            <input type="email" name="email" id="email" required>
                         </div>
                     </div>
                     <div class="full-input">
@@ -75,10 +71,10 @@
                 <div class="input-row">
                     <div class="full-input">
                         <div class="label-container">
-                            <label for="pass">PASSWORD</label>
+                            <label for="password">PASSWORD</label>
                         </div>
                         <div class="input-container">
-                            <input type="password" name="password" id="pass">
+                            <input type="password" name="password" id="password" required minlength="5" maxlength="20">
                         </div>
                     </div>
                     <div class="full-input">
@@ -86,18 +82,23 @@
                             <label for="pass-confirm">CONFIRM PASSWORD</label>
                         </div>
                         <div class="input-container">
-                            <input type="password" name="password-confirm" id="pass-confirm">
+                            <input type="password" name="password-confirm" id="pass-confirm" required minlength="5" maxlength="20">
                         </div>
                     </div>
                 </div>
             </div>
             <div class="button-container">
-                <button id="submit-button" type="submit">Create Account</button>
+                <button id="submit-button">CREATE ACCOUNT</button>
             </div>
             </form>
         </div>
-        <div class="right-pannel-section"></div>
+        <div id="bottom-pannel">
+            <div class="login-container">
+                <h3>ALREADY HAVE AN ACCOUNT?<a id="login-link" href="">LOG IN</a></h3>
+            </div>
+        </div>
     </div>
 
+    <script src="app.js"></script>
 </body>
 </html>
